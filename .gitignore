@@ -1,11 +1,17 @@
 # Prerequisites
 *.d
+.DS_Store
+
+# Dependency caches
+/packages
+/node_modules
 
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
+*.Rproj
 
 # Precompiled Headers
 *.gch
@@ -30,3 +36,6 @@
 *.exe
 *.out
 *.app
+
+# Output files
+*.log
