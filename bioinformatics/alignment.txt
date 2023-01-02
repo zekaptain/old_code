@@ -1,0 +1,530 @@
+Start of homework for 11/19ish
+
+
+########################################
+# Program: needle
+# Rundate: Tue 10 Nov 2015 21:41:03
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20151110-214102-0022-49647694-pg.asequence
+#    -bsequence emboss_needle-I20151110-214102-0022-49647694-pg.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: EMBOSS_001
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 220
+# Identity:      33/220 (15.0%)
+# Similarity:    76/220 (34.5%)
+# Gaps:          73/220 (33.2%)
+# Score: 94.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ------------------MADQLTEEQIAEFKEAFSLFDKDGDGTITTKE     32
+                                       :.|....:.:|  :..|..:||...|.|...:
+EMBOSS_001         1 MAQYSQTLRSSGFTSTVGLTDIEGAKTVA--RRIFENYDKGRKGRIENTD     48
+
+EMBOSS_001        33 LGTVMRSLGQN------PTEAELQDMINEVDADGNGTIDFPEFLTMMARK     76
+                     ...::....::      |:..:::.....:|.:|:|.:.:.:...:..|.
+EMBOSS_001        49 CVPMITEAYKSFNSFFAPSSDDIKAYHRVLDRNGDGIVTYQDIEELCIRY     98
+
+EMBOSS_001        77 MKDTD------SEEEI-------------------REAFRVFDKDGNGYI    101
+                     :..|.      :||::                   |..|:.:||||:|.:
+EMBOSS_001        99 LTGTTVQRTIVTEEKVKKSSKPKYNPEVEAKLDVARRLFKRYDKDGSGQL    148
+
+EMBOSS_001       102 SAAELRHVMTNLGEKL-------TDEEVDEMIREADIDGDGQVNYEEFVQ    144
+                     ...|:..::.:...::       |.|:|...::.||.:.||.|:.||:..
+EMBOSS_001       149 QDDEIAGLLKDTYAEMGMSNFTPTKEDVKIWLQMADTNSDGSVSLEEYED    198
+
+EMBOSS_001       145 MMTAK---------------    149
+                     ::...               
+EMBOSS_001       199 LIIKSLQKAGIRVEKQSLVF    218
+
+
+#---------------------------------------
+#---------------------------------------
+
+
+
+
+
+########################################
+# Program: stretcher
+# Rundate: Tue 10 Nov 2015 21:43:53
+# Commandline: stretcher
+#    -auto
+#    -stdout
+#    -asequence emboss_stretcher-I20151110-214351-0923-23664896-es.asequence
+#    -bsequence emboss_stretcher-I20151110-214351-0923-23664896-es.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 12
+#    -gapextend 2
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: EMBOSS_001
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 218
+# Identity:      35/218 (16.1%)
+# Similarity:    81/218 (37.2%)
+# Gaps:          69/218 (31.7%)
+# Score: -35
+# 
+#
+#=======================================
+
+EMBOSS_001         1 MADQ--------------LTEEQIAEF--KEAFSLFDKDGDGTITTKELG     34
+                     ||..              ||:.:.|:.  :..|..:||...|.|...:..
+EMBOSS_001         1 MAQYSQTLRSSGFTSTVGLTDIEGAKTVARRIFENYDKGRKGRIENTDCV     50
+
+EMBOSS_001        35 TVMRSLGQN------PTEAELQDMINEVDADGNGTIDFPEFLTMMARKMK     78
+                     .::....::      |:..:::.....:|.:|:|.:.:.:...:..|.:.
+EMBOSS_001        51 PMITEAYKSFNSFFAPSSDDIKAYHRVLDRNGDGIVTYQDIEELCIRYLT    100
+
+EMBOSS_001        79 DTD------SEEEIREA-------------------FRVFDKDGNGYISA    103
+                     .|.      :||:::::                   |:.:||||:|.:..
+EMBOSS_001       101 GTTVQRTIVTEEKVKKSSKPKYNPEVEAKLDVARRLFKRYDKDGSGQLQD    150
+
+EMBOSS_001       104 AELRHVMTNLGEKL-------TDEEVDEMIREADIDGDGQVNYEEFVQMM    146
+                     .|:..::.:...::       |.|:|...::.||.:.||.|:.||:..::
+EMBOSS_001       151 DEIAGLLKDTYAEMGMSNFTPTKEDVKIWLQMADTNSDGSVSLEEYEDLI    200
+
+EMBOSS_001       147 TAK---------------    149
+                     ...               
+EMBOSS_001       201 IKSLQKAGIRVEKQSLVF    218
+
+
+#---------------------------------------
+#---------------------------------------
+
+
+LOCAL ALIGNMENT
+
+
+########################################
+# Program: water
+# Rundate: Tue 10 Nov 2015 21:44:48
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20151110-214446-0812-1996075-oy.asequence
+#    -bsequence emboss_water-I20151110-214446-0812-1996075-oy.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: EMBOSS_001
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 171
+# Identity:      31/171 (18.1%)
+# Similarity:    71/171 (41.5%)
+# Gaps:          38/171 (22.2%)
+# Score: 101.0
+# 
+#
+#=======================================
+
+EMBOSS_001        14 KEAFSLFDKDGDGTITTKELGTVMRSLGQN------PTEAELQDMINEVD     57
+                     :..|..:||...|.|...:...::....::      |:..:::.....:|
+EMBOSS_001        30 RRIFENYDKGRKGRIENTDCVPMITEAYKSFNSFFAPSSDDIKAYHRVLD     79
+
+EMBOSS_001        58 ADGNGTIDFPEFLTMMARKMKDTD------SEEEI---------------     86
+                     .:|:|.:.:.:...:..|.:..|.      :||::               
+EMBOSS_001        80 RNGDGIVTYQDIEELCIRYLTGTTVQRTIVTEEKVKKSSKPKYNPEVEAK    129
+
+EMBOSS_001        87 ----REAFRVFDKDGNGYISAAELRHVMTNLGEKL-------TDEEVDEM    125
+                         |..|:.:||||:|.:...|:..::.:...::       |.|:|...
+EMBOSS_001       130 LDVARRLFKRYDKDGSGQLQDDEIAGLLKDTYAEMGMSNFTPTKEDVKIW    179
+
+EMBOSS_001       126 IREADIDGDGQVNYEEFVQMM    146
+                     ::.||.:.||.|:.||:..::
+EMBOSS_001       180 LQMADTNSDGSVSLEEYEDLI    200
+
+
+#---------------------------------------
+#---------------------------------------
+
+
+
+
+########################################
+# Program: matcher
+# Rundate: Tue 10 Nov 2015 21:45:43
+# Commandline: matcher
+#    -auto
+#    -stdout
+#    -asequence emboss_matcher-I20151110-214542-0763-25537060-oy.asequence
+#    -bsequence emboss_matcher-I20151110-214542-0763-25537060-oy.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 14
+#    -gapextend 4
+#    -alternatives 1
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: EMBOSS_001
+# Matrix: EBLOSUM62
+# Gap_penalty: 14
+# Extend_penalty: 4
+#
+# Length: 67
+# Identity:      18/67 (26.9%)
+# Similarity:    36/67 (53.7%)
+# Gaps:           7/67 (10.4%)
+# Score: 57
+# 
+#
+#=======================================
+
+EMBOSS_001        87 REAFRVFDKDGNGYISAAELRHVMTNLGEKL-------TDEEVDEMIREA    129
+                     |..|:.:||||:|.:...|:..::.:...::       |.|:|...::.|
+EMBOSS_001       134 RRLFKRYDKDGSGQLQDDEIAGLLKDTYAEMGMSNFTPTKEDVKIWLQMA    183
+
+EMBOSS_001       130 DIDGDGQVNYEEFVQMM    146
+                     |.:.||.|:.||:..::
+EMBOSS_001       184 DTNSDGSVSLEEYEDLI    200
+
+
+#---------------------------------------
+#---------------------------------------
+
+
+
+
+Alignment Visual Output Submission Details
+View Alignment File
+# /nfs/public/ro/es/appbin/linux-x86_64/fasta-36.3.7b/lalign36 -m 9i lalign-I20151110-214624-0552-10482433-pg.asequence lalign-I20151110-214624-0552-10482433-pg.bsequence -p -s BL50 -f -12 -g -2 -E 10.0 -m 0 -m "F11 lalign-I20151110-214624-0552-10482433-pg.output.lav"
+LALIGN finds non-overlapping local alignments
+ version 36.3.7b Jun, 2015(preload9)
+Please cite:
+ X. Huang and W. Miller (1991) Adv. Appl. Math. 12:373-381
+
+Query: lalign-I20151110-214624-0552-10482433-pg.asequence
+  1>>>EMBOSS_001 - 149 aa
+Library: lalign-I20151110-214624-0552-10482433-pg.bsequence
+      218 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1859;  K=0.04707
+ statistics sampled from 1 (1) to 500 sequences
+Threshold: E() < 10 score: 27
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL50 matrix (15:-5), open/ext: -12/-2
+ Scan time:  0.010
+
+The best non-identical alignments are:     ls-w bits E(1) %_id  %_sim  alen
+EMBOSS_001                          ( 218)  104 32.3 6.1e-06 0.203 0.552  143
++-                                           93 29.4 4.7e-05 0.175 0.675   80
++-                                           68 22.6  0.0049 0.190 0.635   63
++-                                           63 21.3   0.012 0.197 0.592   76
++-                                           60 20.5   0.022 0.165 0.518  139
++-                                           57 19.7   0.037 0.213 0.564   94
++-                                           55 19.2   0.054 0.209 0.651   43
++-                                           47 17.0    0.22 0.197 0.525   61
++-                                           34 13.5    0.94 0.176 0.588   51
++-                                           32 13.0    0.98 0.182 0.614   44
++-                                           32 13.0    0.98 0.350 0.550   20
++-                                           31 12.7    0.99 0.231 0.769   13
++-                                           30 12.5       1 0.500 0.875    8
++-                                           30 12.5       1 0.263 0.579   19
++-                                           29 12.2       1 0.222 0.667   18
++-                                           29 12.2       1 0.389 0.611   18
++-                                           28 11.9       1 0.286 0.667   21
++-                                           28 11.9       1 0.208 0.625   24
+
+>>>EMBOSS_001, 149 aa vs lalign-I20151110-214624-0552-10482433-pg.bsequence library
+
+>>EMBOSS_001                                              (218 aa)
+ Waterman-Eggert score: 104;  32.3 bits; E(1) <  6.1e-06
+20.3% identity (55.2% similar) in 143 aa overlap (12-146:70-200)
+
+              20        30         40        50        60        70
+EMBOSS EFKEAFSLFDKDGDGTITTKELGTV-MRSLGQNPTEAELQDMINEVDADGNGTIDFPEFL
+       ..:    ..:..::: .: ...  . .: :  . ..   . ...:  .  ..    :.. 
+EMBOSS DIKAYHRVLDRNGDGIVTYQDIEELCIRYLTGTTVQ---RTIVTEEKVKKSSK---PKYN
+      70        80        90       100          110          120   
+
+               80        90       100       110              120   
+EMBOSS TMMARKMKDTDSEEEIREAFRVFDKDGNGYISAAELRHVMTNLGEKL-------TDEEVD
+         .  :.      .  :. :. .::::.: ..  :.  .. .   ..       : :.: 
+EMBOSS PEVEAKL------DVARRLFKRYDKDGSGQLQDDEIAGLLKDTYAEMGMSNFTPTKEDVK
+           130             140       150       160       170       
+
+           130       140      
+EMBOSS EMIREADIDGDGQVNYEEFVQMM
+         .. :: ..::.:. ::. ...
+EMBOSS IWLQMADTNSDGSVSLEEYEDLI
+       180       190       200
+
+>--
+ Waterman-Eggert score: 93;  29.4 bits; E(1) <  4.7e-05
+17.5% identity (67.5% similar) in 80 aa overlap (6-78:126-205)
+
+          10        20        30            40           50        
+EMBOSS TEEQIAEFKEAFSLFDKDGDGTITTKELGTVMRS----LGQN---PTEAELQDMINEVDA
+       .: ..   .. :. .::::.: .   :.. ....    .:..   ::. ...  .. .:.
+EMBOSS VEAKLDVARRLFKRYDKDGSGQLQDDEIAGLLKDTYAEMGMSNFTPTKEDVKIWLQMADT
+         130       140       150       160       170       180     
+
+       60        70        
+EMBOSS DGNGTIDFPEFLTMMARKMK
+       ...:.... :.  .. ....
+EMBOSS NSDGSVSLEEYEDLIIKSLQ
+         190       200     
+
+>--
+ Waterman-Eggert score: 68;  22.6 bits; E(1) <  0.0049
+19.0% identity (63.5% similar) in 63 aa overlap (52-109:32-94)
+
+              60        70        80             90       100      
+EMBOSS MINEVDADGNGTIDFPEFLTMMARKMKDTDS-----EEEIREAFRVFDKDGNGYISAAEL
+       .... :   .: :.  . . :... .:. .:      ..:.   ::.:..:.: ..  ..
+EMBOSS IFENYDKGRKGRIENTDCVPMITEAYKSFNSFFAPSSDDIKAYHRVLDRNGDGIVTYQDI
+              40        50        60        70        80        90 
+
+          
+EMBOSS RHV
+       ...
+EMBOSS EEL
+          
+
+>--
+ Waterman-Eggert score: 63;  21.3 bits; E(1) <  0.012
+19.7% identity (59.2% similar) in 76 aa overlap (77-145:19-94)
+
+         80         90       100       110             120         
+EMBOSS MKDTDSEEEI-REAFRVFDKDGNGYISAAELRHVMTNLGEKL------TDEEVDEMIREA
+       . : .. . . :. :. .::  .: :  ..   ..:.  ...      .....  . :  
+EMBOSS LTDIEGAKTVARRIFENYDKGRKGRIENTDCVPMITEAYKSFNSFFAPSSDDIKAYHRVL
+       20        30        40        50        60        70        
+
+     130       140     
+EMBOSS DIDGDGQVNYEEFVQM
+       : .::: :.:... ..
+EMBOSS DRNGDGIVTYQDIEEL
+       80        90    
+
+>--
+ Waterman-Eggert score: 60;  20.5 bits; E(1) <  0.022
+16.5% identity (51.8% similar) in 139 aa overlap (14-146:30-157)
+
+            20        30            40          50        60       
+EMBOSS KEAFSLFDKDGDGTITTKE----LGTVMRSLGQ--NPTEAELQDMINEVDADGNGTIDFP
+       .. :  .::   : : . .    .  ...:...   :.  ... .   .: .:.: . . 
+EMBOSS RRIFENYDKGRKGRIENTDCVPMITEAYKSFNSFFAPSSDDIKAYHRVLDRNGDGIVTYQ
+      30        40        50        60        70        80         
+
+        70        80        90       100       110       120       
+EMBOSS EFLTMMARKMKDTDSEEEIREAFRVFDKDGNGYISAAELRHVMTNLGEKLTDEEVDEMIR
+       ..  .  : .  :  .. :    .:  ..   :   .: .    .....:        ..
+EMBOSS DIEELCIRYLTGTTVQRTIVTEEKVKKSSKPKYNPEVEAK---LDVARRL--------FK
+      90       100       110       120          130                
+
+       130       140      
+EMBOSS EADIDGDGQVNYEEFVQMM
+       . : ::.::.. .:.. ..
+EMBOSS RYDKDGSGQLQDDEIAGLL
+      140       150       
+
+>--
+ Waterman-Eggert score: 57;  19.7 bits; E(1) <  0.037
+21.3% identity (56.4% similar) in 94 aa overlap (27-110:107-200)
+
+         30        40            50        60        70            
+EMBOSS TITTKELGTVMRSLGQNP-TEAEL---QDMINEVDADGNGTIDFPEFLTMMARKMKD---
+       ::.:.:      .   :: .::.:   . .... : ::.: ..  :.  ..   . .   
+EMBOSS TIVTEEKVKKSSKPKYNPEVEAKLDVARRLFKRYDKDGSGQLQDDEIAGLLKDTYAEMGM
+        110       120       130       140       150       160      
+
+         80        90       100       110
+EMBOSS ---TDSEEEIREAFRVFDKDGNGYISAAELRHVM
+          : ..:...  ... : ...: .:  : . ..
+EMBOSS SNFTPTKEDVKIWLQMADTNSDGSVSLEEYEDLI
+        170       180       190       200
+
+>--
+ Waterman-Eggert score: 55;  19.2 bits; E(1) <  0.054
+20.9% identity (65.1% similar) in 43 aa overlap (12-53:175-217)
+
+              20        30         40        50   
+EMBOSS EFKEAFSLFDKDGDGTITTKEL-GTVMRSLGQNPTEAELQDMI
+       . :  ... : ..::... .:    ...:: .   ..: :...
+EMBOSS DVKIWLQMADTNSDGSVSLEEYEDLIIKSLQKAGIRVEKQSLV
+          180       190       200       210       
+
+>--
+ Waterman-Eggert score: 47;  17.0 bits; E(1) <  0.22
+19.7% identity (52.5% similar) in 61 aa overlap (37-94:1-61)
+
+         40        50        60           70        80        90   
+EMBOSS MRSLGQNPTEAELQDMINEVDADGNGTID---FPEFLTMMARKMKDTDSEEEIREAFRVF
+       : . .:.   . . . .. .: .:  :.    : ..      ....::    : ::.. :
+EMBOSS MAQYSQTLRSSGFTSTVGLTDIEGAKTVARRIFENYDKGRKGRIENTDCVPMITEAYKSF
+               10        20        30        40        50        60
+
+        
+EMBOSS D
+       .
+EMBOSS N
+        
+
+>--
+ Waterman-Eggert score: 34;  13.5 bits; E(1) <  0.94
+17.6% identity (58.8% similar) in 51 aa overlap (94-143:150-200)
+
+           100       110       120       130        140   
+EMBOSS DKDGNGYISAAELRHVMTNLGEKLTDEEVDEMIREADIDGDGQVN-YEEFV
+       : .  : .. .  .  :.:.     : ..  .. ... ::. ... ::...
+EMBOSS DDEIAGLLKDTYAEMGMSNFTPTKEDVKIWLQMADTNSDGSVSLEEYEDLI
+     150       160       170       180       190       200
+
+>--
+ Waterman-Eggert score: 32;  13.0 bits; E(1) <  0.98
+18.2% identity (61.4% similar) in 44 aa overlap (29-72:160-201)
+
+       30        40        50        60        70  
+EMBOSS TTKELGTVMRSLGQNPTEAELQDMINEVDADGNGTIDFPEFLTM
+       :  :.:  : ..  .  ....  .. ....::. ...  : : .
+EMBOSS TYAEMG--MSNFTPTKEDVKIWLQMADTNSDGSVSLEEYEDLII
+     160         170       180       190       200 
+
+>--
+ Waterman-Eggert score: 32;  13.0 bits; E(1) <  0.98
+35.0% identity (55.0% similar) in 20 aa overlap (80-99:20-39)
+
+      80        90         
+EMBOSS TDSEEEIREAFRVFDKDGNG
+       :: :     : :.:..  .:
+EMBOSS TDIEGAKTVARRIFENYDKG
+      20        30         
+
+>--
+ Waterman-Eggert score: 31;  12.7 bits; E(1) <  0.99
+23.1% identity (76.9% similar) in 13 aa overlap (116-128:147-159)
+
+         120        
+EMBOSS KLTDEEVDEMIRE
+       .: :.:.  ....
+EMBOSS QLQDDEIAGLLKD
+        150         
+
+>--
+ Waterman-Eggert score: 30;  12.5 bits; E(1) <  1
+50.0% identity (87.5% similar) in 8 aa overlap (76-83:181-188)
+
+          80   
+EMBOSS KMKDTDSE
+       .: ::.:.
+EMBOSS QMADTNSD
+               
+
+>--
+ Waterman-Eggert score: 30;  12.5 bits; E(1) <  1
+26.3% identity (57.9% similar) in 19 aa overlap (13-31:13-31)
+
+             20        30 
+EMBOSS FKEAFSLFDKDGDGTITTK
+       :  . .: : .:  :.. .
+EMBOSS FTSTVGLTDIEGAKTVARR
+             20        30 
+
+>--
+ Waterman-Eggert score: 29;  12.2 bits; E(1) <  1
+22.2% identity (66.7% similar) in 18 aa overlap (115-132:75-92)
+
+          120       130  
+EMBOSS EKLTDEEVDEMIREADID
+       ... :.. : ..   ::.
+EMBOSS HRVLDRNGDGIVTYQDIE
+           80        90  
+
+>--
+ Waterman-Eggert score: 29;  12.2 bits; E(1) <  1
+38.9% identity (61.1% similar) in 18 aa overlap (11-27:128-145)
+
+               20        
+EMBOSS AEFKEAFSLFDK-DGDGT
+       :..  :  :: . : ::.
+EMBOSS AKLDVARRLFKRYDKDGS
+       130       140     
+
+>--
+ Waterman-Eggert score: 28;  11.9 bits; E(1) <  1
+28.6% identity (66.7% similar) in 21 aa overlap (106-126:180-200)
+
+         110       120      
+EMBOSS LRHVMTNLGEKLTDEEVDEMI
+       :. . ::   ... :: ...:
+EMBOSS LQMADTNSDGSVSLEEYEDLI
+     180       190       200
+
+>--
+ Waterman-Eggert score: 28;  11.9 bits; E(1) <  1
+20.8% identity (62.5% similar) in 24 aa overlap (124-147:31-54)
+
+           130       140       
+EMBOSS EMIREADIDGDGQVNYEEFVQMMT
+       ..... :    :...  . : :.:
+EMBOSS RIFENYDKGRKGRIENTDCVPMIT
+               40        50    
+
+
+>>>///
+
+149 residues in 1 query   sequences
+218 residues in 1 library sequences
+ Scomplib [36.3.7b Jun, 2015(preload9)]
+ start: Tue Nov 10 21:46:25 2015 done: Tue Nov 10 21:46:25 2015
+ Total Scan time:  0.010 Total Display time:  0.010
+
+Function used was LALIGN [36.3.7b Jun, 2015(preload9)]

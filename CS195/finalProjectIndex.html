@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>Camp Creek Data Entry</title>
+<script>
+    
+    //Checks if a 4 digit year is entered
+    function checkYear() {
+        var year=document.dataEntry.Year.value;
+        var reg = /\d{4}/;
+        var reg2 = /\d{5}/;
+        var reg3 = /[A-Za-z]/;
+        matches1 = year.match(reg);
+        matches2 = year.match(reg2);
+        matches3 = year.match(reg3);
+        if(!matches1 || matches2 || matches3){
+            alert("Please enter a four digit year");
+            document.dataEntry.year.focus();
+        }
+    }
+
+    //Checks if streamflow is a number
+    function checkStreamflow() {
+        var x=document.dataEntry.streamflow.value;
+        var reg = /(\d*\.)?\d+/;
+        var reg1 = /\d*\.\d+\./;
+        var reg2 = /[A-Za-z]/;
+        matches = x.match(reg);
+        matches2 = x.match(reg1);
+        matches3 = x.match(reg2);
+    
+        if (!matches || matches2 || matches3) {
+            alert("Streamflow must be a number");
+            document.dataEntry.streamflow.focus();
+       }
+    }
+
+    //Checks if temperature is a number
+    function checkTemperature() {
+        var x=document.dataEntry.temp.value;
+        var reg = /(\d*\.)?\d+/;
+        var reg1 = /\d*\.\d+\./;
+        var reg2 = /[A-Za-z]/;
+        matches = x.match(reg);
+        matches2 = x.match(reg1);
+        matches3 = x.match(reg2);
+    
+        if (!matches || matches2 || matches3) {
+            alert("Temp must be a number");
+            document.dataEntry.temp.focus();
+       }
+    }    
+
+    //Checks if turbidity is a number
+    function checkTurbidity() {
+        var x=document.dataEntry.turbidity.value;
+        var reg = /(\d*\.)?\d+/;
+        var reg1 = /\d*\.\d+\./;
+        var reg2 = /[A-Za-z]/;
+        matches = x.match(reg);
+        matches2 = x.match(reg1);
+        matches3 = x.match(reg2);
+    
+        if (!matches || matches2 || matches3) {
+            alert("Trubidity must be a number");
+            document.dataEntry.turbidity.focus();
+       }
+    }
+
+    //Checks Nitrogen is a number
+    function checkNitrogen() {
+        var x=document.dataEntry.nitro.value;
+        var reg = /(\d*\.)?\d+/;
+        var reg1 = /\d*\.\d+\./;
+        var reg2 = /[A-Za-z]/;
+        matches = x.match(reg);
+        matches2 = x.match(reg1);
+        matches3 = x.match(reg2);
+    
+        if (!matches || matches2 || matches3) {
+            alert("Nitrogen must be a number");
+            document.dataEntry.nitro.focus();
+       }
+    }
+
+    //Checks if phosphrous is a number
+    function checkPhosphorus() {
+        var x=document.dataEntry.phos.value;
+        var reg = /(\d*\.)?\d+/;
+        var reg1 = /\d*\.\d+\./;
+        var reg2 = /[A-Za-z]/;
+        matches = x.match(reg);
+        matches2 = x.match(reg1);
+        matches3 = x.match(reg2);
+    
+        if (!matches || matches2 || matches3) {
+            alert("Phosphorus must be a number");
+            document.dataEntry.phos.focus();
+       }
+    }  
+
+    //Checks if phosphrous is a number
+    function checkDO() {
+        var x=document.dataEntry.phos.value;
+        var reg = /(\d*\.)?\d+/;
+        var reg1 = /\d*\.\d+\./;
+        var reg2 = /[A-Za-z]/;
+        matches = x.match(reg);
+        matches2 = x.match(reg1);
+        matches3 = x.match(reg2);
+    
+        if (!matches || matches2 || matches3) {
+            alert("Dissolved oxygen must be number");
+            document.dataEntry.phos.focus();
+       }
+    }    
+
+</script>
+
+</head>
+<body bgcolor="#ADD8E6">
+
+<img src="aCreek.jpg" alt="creek">
+<h1>Camp Creek Water Quality Data Entry</h1>
+<form name="dataEntry" action="phpMongo.php" method="post" enctype="multipart/form-data">
+
+    <p>
+        <label for="month">Month:</label>
+        <select name="month">
+        <option value='01'>January</option>
+        <option value='02'>February</option>
+        <option value='03'>March</option>
+        <option value='04'>April</option>
+        <option value='05'>May</option>
+        <option value='06'>June</option>
+        <option value='07'>July</option>
+        <option value='08'>August</option>
+        <option value='09'>September</option>
+        <option value='10'>October</option>
+        <option value='11'>November</option>
+        <option value='12'>December</option>
+        </select>
+
+    	<label for="day">Day:</label>
+        <select name="day">
+        <option value='01'>01</option>
+        <option value='02'>02</option>
+        <option value='03'>03</option>
+        <option value='04'>04</option>
+        <option value='05'>05</option>
+        <option value='06'>06</option>
+        <option value='07'>07</option>
+        <option value='08'>08</option>
+        <option value='09'>09</option>
+        <option value='10'>10</option>
+        <option value='11'>11</option>
+        <option value='12'>12</option>
+        <option value='13'>13</option>
+        <option value='14'>14</option>
+        <option value='15'>15</option>
+        <option value='16'>16</option>
+        <option value='17'>17</option>
+        <option value='18'>18</option>
+        <option value='19'>19</option>
+        <option value='20'>20</option>
+        <option value='21'>21</option>
+        <option value='22'>22</option>
+        <option value='23'>23</option>
+        <option value='24'>24</option>
+        <option value='25'>25</option>
+        <option value='26'>26</option>
+        <option value='27'>27</option>
+        <option value='28'>28</option>
+        <option value='29'>29</option>
+        <option value='30'>30</option>
+        <option value='31'>31</option>
+        </select>
+    </p>
+    <p>
+        <label for="Year">Year:</label>
+        <input type="text" name="year" id="Year" onblur="checkYear();">
+    </p>
+    <p>
+        <label for="loc">Location:</label>
+        <input type="text" name="location" id="loc">
+    </p>
+    <p>
+    	<label for="streamflow">Streamflow:</label>
+        <input type="text" name="stream" id="streamflow" onblur="checkStreamflow();">
+    </p>
+    <p>
+    	<label for="temp">Temp (degrees C):</label>
+        <input type="text" name="temperature" id="temp" onblur="checkTemperature();">
+    </p>
+      <p>
+        <label for="turbidity">Turbidity:</label>
+        <input type="text" name="Turbidity" id="turbidity" onblur="checkTurbidity();">
+    </p>
+      <p>
+        <label for="nitro">Nitrogen (mg/L):</label>
+        <input type="text" name="nitrogen" id="nitro" onblur="checkNitrogen();">
+    </p>
+      <p>
+        <label for="phos">Phosphorus(mg/L):</label>
+        <input type="text" name="phosphorus" id="phos" onblur="checkPhosphorus();">
+    </p>
+
+
+
+
+
+     <p>
+        <label for="do">DO(mg/L):</label>
+        <input type="text" name="DO" id="do" onblur="checkDO();">
+    </p>
+     <p>
+        <label for="conduct">Conductivity:</label>
+        <input type="text" name="conductivity" id="conduct">
+    </p>
+     <p>
+        <label for="ben_org">Benthic Organisms:</label>
+        <input type="text" name="benthicOrganisms" id="ben_org">
+    </p>
+    <p>
+        <label for="obs">Notable Observations:</label>
+        <input type="text" name="Observation" id="obs">
+    </p>
+    <p>
+        <label for="obsName">Observer's Name:</label>
+        <input type="text" name="ObsName" id="obsName">
+    </p>
+      <p>
+        <label for="image">Picture</label>
+        <img src="mark.png"  title="Select multiple using cmd/ctrl" width="15" height="15" />
+         <input type="file" name="Picture[]" id="image" multiple="multiple">
+    </p>
+
+
+    <input type="submit" value="Add Entry">
+</form>
+
+</body></html>

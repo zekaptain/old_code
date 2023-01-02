@@ -1,0 +1,105 @@
+Albuquerque	249.88
+Anaheim	258.57
+Anchorage	230.97
+Arlington	248.94
+Atlanta	249.07
+Aurora	254.16
+Austin	253.68
+Bakersfield	239.47
+Baltimore	260.86
+Baton Rouge	273.0
+Birmingham	236.55
+Boise	245.01
+Boston	246.26
+Buffalo	245.025
+Chandler	249.4
+Charlotte	265.45
+Chesapeake	255.05
+Chicago	252.6
+Chula Vista	242.87
+Cincinnati	239.81
+Cleveland	251.67
+Colorado Springs	236.455
+Columbus	259.11
+Corpus Christi	258.06
+Dallas	246.41
+Denver	244.965
+Detroit	265.735
+Durham	255.26
+El Paso	234.54
+Fort Wayne	237.21
+Fort Worth	249.74
+Fremont	256.525
+Fresno	246.5
+Garland	247.37
+Gilbert	247.84
+Glendale	255.555
+Greensboro	248.3
+Henderson	246.17
+Hialeah	244.145
+Honolulu	245.76
+Houston	260.43
+Indianapolis	239.97
+Irvine	231.81
+Irving	257.265
+Jacksonville	238.345
+Jersey City	258.865
+Kansas City	239.01
+Laredo	254.05
+Las Vegas	256.735
+Lexington	259.71
+Lincoln	261.025
+Long Beach	246.435
+Los Angeles	247.345
+Louisville	254.11
+Lubbock	252.185
+Madison	242.23
+Memphis	256.16
+Mesa	248.85
+Miami	242.925
+Milwaukee	258.15
+Minneapolis	240.23
+Nashville	253.0
+New Orleans	250.71
+New York	228.115
+Newark	260.595
+Norfolk	253.49
+North Las Vegas	265.23
+Oakland	251.19
+Oklahoma City	240.2
+Omaha	256.59
+Orlando	263.19
+Philadelphia	263.96
+Phoenix	270.96
+Pittsburgh	245.86
+Plano	242.57
+Portland	258.125
+Raleigh	242.56
+Reno	250.2
+Richmond	256.57
+Riverside	255.16
+Rochester	252.37
+Sacramento	253.74
+Saint Paul	253.495
+San Antonio	247.93
+San Bernardino	253.76
+San Diego	252.05
+San Francisco	246.35
+San Jose	246.7
+Santa Ana	250.92
+Scottsdale	259.05
+Seattle	249.66
+Spokane	256.92
+St. Louis	246.62
+St. Petersburg	253.53
+Stockton	251.275
+Tampa	249.295
+Toledo	250.745
+Tucson	248.24
+Tulsa	246.215
+Virginia Beach	263.775
+Washington	255.605
+Wichita	247.84
+Winston–Salem 	242.545
+100000
+25047047.69
