@@ -1,7 +1,7 @@
 
 <?php
     //set Uniform Resource Identifier
-    $uri = "mongodb://DrakeStudent:abc123@ds031912.mongolab.com:31912/drake_environmental_science";
+    $uri = "mongodb://../drake_environmental_science";
     //set when to timeout connection to client
     $options = array("connectTimeoutMS" => 30000);
     //connect to mongoDB
